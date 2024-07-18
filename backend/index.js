@@ -10,7 +10,7 @@ const app = express();
 
 app.use(cookieSession({
     name: 'session',
-    keys: ["lama"],
+    keys: ["ykm_social"],
     maxAge: 24 * 60 * 60 * 1000, // 24 hours
 }));
 
