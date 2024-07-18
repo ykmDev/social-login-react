@@ -1,6 +1,6 @@
 .navbar {
   height: 50px;
-  background-color: rgba(102, 16, 83, 0.698);
+  background-color: rgba(14, 119, 138, 0.698);
   color: white;
   display: flex;
   align-items: center;
@@ -102,7 +102,9 @@
   height: calc(100vh - 50px);
   display: flex;
   align-items: center;
+  color: #ffffff;
   justify-content: center;
+  text-decoration: none;
 }
 
 .wrapper {
