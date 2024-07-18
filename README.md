@@ -20,13 +20,19 @@
 ```  npm install passport-google-oauth20 ```
 * In backend, install passport-facebook:
 ```  npm install passport-facebook ```
+* In backend, install passport-github2:
+```  npm install passport-github2 ```
+
+## Developer Console
+* [Google Cloud](https://console.cloud.google.com/)
+* [Facebook Developers](https://developers.facebook.com/)
+* [Github Setting](https://github.com/settings/developers)
 
 ## Development Env Running step
 * RUN in client: ``` npm start ```
 * RUN in backend: ``` npm start ```
 
 ![login screen](https://github.com/ykmDev/social-login-react/blob/main/social_login.png)
-
 
 Error occur in Passport v0.7.0
 error: 

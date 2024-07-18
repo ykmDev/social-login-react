@@ -10,7 +10,7 @@ const Login = () => {
       window.open(`${process.env.REACT_APP_BACKEND}/auth/facebook`, "_self");
     }
     const github = () => {
-
+      window.open(`${process.env.REACT_APP_BACKEND}/auth/github`, "_self");
     }
     return (
         <div className="login">
