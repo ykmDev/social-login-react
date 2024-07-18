@@ -18,6 +18,8 @@
 ``` yarn add express passport cors nodemon cookie-session ```
 * In backend, install passport-google-oauth20:
 ```  npm install passport-google-oauth20 ```
+* In backend, install passport-facebook:
+```  npm install passport-facebook ```
 
 ## Development Env Running step
 * RUN in client: ``` npm start ```

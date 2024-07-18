@@ -4,10 +4,10 @@ import Github from "../img/github.png";
 
 const Login = () => {
     const google = () => {
-      window.open("http://localhost:5000/auth/google", "_self");
+      window.open(`${process.env.REACT_APP_BACKEND}/auth/google`, "_self");
     }
     const facebook = () => {
-
+      window.open(`${process.env.REACT_APP_BACKEND}/auth/facebook`, "_self");
     }
     const github = () => {
 
